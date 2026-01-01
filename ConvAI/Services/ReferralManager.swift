@@ -1,9 +1,3 @@
-//
-//  ReferralManager.swift
-//  ConvAI
-//
-//  Created by Assistant on 7/08/2025.
-//
 
 import Foundation
 import SwiftUI

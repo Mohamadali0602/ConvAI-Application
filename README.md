@@ -17,7 +17,7 @@ The main goal of this project was to create a solution that **didn’t exist in 
 - **Audio optimization on iPhone**  
   I fine-tuned the audio pipeline to ensure the **best audio quality**, with **no interruptions, lag, or buzzing**, even during prolonged usage.
 
-
+I didn't put the cloud functions in this github repo. 
 
 ---
 

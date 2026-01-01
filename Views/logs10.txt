@@ -1,0 +1,515 @@
+🎧 Available audio outputs updated: ["Speaker"]
+🎤 startConversation called - isActive: false
+🔄 Starting new conversation
+🔐 validateAuthentication called
+✅ User is signed in
+✅ Current user exists: 8PCckiIWlRP9IpUYkDTL1jDkIJz1
+✅ User ID format valid: 8PCckiIWlRP9IpUYkDTL1jDkIJz1
+✅ Authentication check passed
+🚀 Launching streaming task
+🔄 startStreaming() called
+✅ Setting isConnecting = true
+🔄 Session monitoring started - will refresh in 8.0 minutes
+⏱️ Display timer started
+🤖 USING SIMULATION AGENT: Jason Walker (ID: B96FD3A9-5A1E-4E83-8518-AD9740AC97A4)
+🤖 USING SIMULATION AGENT: Jason Walker (ID: B96FD3A9-5A1E-4E83-8518-AD9740AC97A4)
+✅ Created conversation session
+🔄 Creating system prompt...
+🤖 USING SIMULATION AGENT: Jason Walker (ID: B96FD3A9-5A1E-4E83-8518-AD9740AC97A4)
+🤖 USING SIMULATION AGENT: Jason Walker (ID: B96FD3A9-5A1E-4E83-8518-AD9740AC97A4)
+🤖 AGENT CHECK before system prompt: Jason Walker (ID: B96FD3A9-5A1E-4E83-8518-AD9740AC97A4)
+🎭 Is Simulation: true
+🤖 Simulation Agent Available: Jason Walker
+🤖 USING SIMULATION AGENT: Jason Walker (ID: B96FD3A9-5A1E-4E83-8518-AD9740AC97A4)
+✅ Clean simulation system prompt created: You are Jason Walker. 
+
+Character Profile:
+Diplomatic mediator who seeks consensus and harmony in al...
+
+========== SYSTEM PROMPT START ==========
+You are Jason Walker. 
+
+Character Profile:
+Diplomatic mediator who seeks consensus and harmony in all interactions. Careful with words and considerate of all perspectives.
+
+Scenario Context:
+You are a busy business owner who just answered an unexpected sales call but you don't know at first that it is a sales call. You're skeptical of salespeople and pressed for time, but you'll listen if they demonstrate clear value quickly. 
+Be moderately challenging and expect competent responses. Stay slightly annoyed but become more interested if they handle the call professionally and address your specific business needs and be brutally honest about your expectations. 
+Don't be afraid to push back if you feel your time is being wasted. Don't let them waste your time with generic pitches. Don't help them with their sales tactics. Be demanding and realistic, expecting professional-level skills with minimal patience for mistakes or hesitation.
+
+RESPONSES TO GIVE:
+- Initial greeting: "Hello?" (as you would normally answer a phone)
+
+IMPORTANT CHARACTER CONTEXT:
+- You are playing the role of Jason Walker, a male character
+- Use the name Jason Walker when introducing yourself or when asked
+- Maintain character consistency throughout the conversation
+- Respond in a way that matches Jason Walker's personality and the scenario context
+- Do NOT describe your tones (e.g., "In an annoyed tone"). 
+- You can speak multiple languages if needed. You reply to the user in the language they used.
+=========== SYSTEM PROMPT END ===========
+
+🔄 Calling liveClient.start()...
+🤖 USING SIMULATION AGENT: Jason Walker (ID: B96FD3A9-5A1E-4E83-8518-AD9740AC97A4)
+🎤 Voice parameter: Iapetus
+🎤 Character voice from input: 'Iapetus'
+🎤 Simulation agent voice: 'Iapetus'
+📊 Starting token tracking for session: BD273644-05C3-437B-827D-7018C3F660C5
+💰 PHASE 4 TASK 2: Cost tracking initialized for session
+🔍 STEP 1 - TOKEN CALL #1 at 2025-08-28 09:10:07 +0000
+🔍 STEP 1 - System prompt length: 1490 characters
+🔄 Fetching ephemeral token from Cloud Function for agent: money-master
+🎯 Requesting specific voice: Iapetus
+✅ CORRECTED: System prompt will be embedded in token for constrained endpoint
+GTMSessionFetcher 0x1273c1b80 (https://us-central1-convai-f1050.cloudfunctions.net/getGeminiEphemeralToken) was already running
+✅ Cloud Function response: {
+    accessType = developer;
+    agentType = "money-master";
+    availableVoices =     {
+        feminine =         (
+            Zephyr,
+            Kore,
+            Leda,
+            Aoede,
+            Callirrhoe,
+            Autonoe,
+            Despina,
+            Erinome,
+            Laomedeia,
+            Achernar,
+            Gacrux,
+            Pulcherrima,
+            Vindemiatrix
+        );
+        iosMapping =         {
+            Achernar = Achernar;
+            Achird = Achird;
+            Algenib = Algenib;
+            Algieba = Algieba;
+            Alnilam = Alnilam;
+            Aoede = Aoede;
+            Autonoe = Autonoe;
+            Callirrhoe = Callirrhoe;
+            Charon = Charon;
+            Despina = Despina;
+            Enceladus = Enceladus;
+            Erinome = Erinome;
+            Fenrir = Fenrir;
+            Gacrux = Gacrux;
+            Iapetus = Iapetus;
+            Kore = Kore;
+            Laomedeia = Laomedeia;
+            Leda = Leda;
+            Orus = Orus;
+            Puck = Puck;
+            Pulcherrima = Pulcherrima;
+            Rasalgethi = Rasalgethi;
+            Sadachbia = Sadachbia;
+            Sadaltager = Sadaltager;
+            Schedar = Schedar;
+            Sulafat = Leda;
+            Umbriel = Umbriel;
+            Vindemiatrix = Vindemiatrix;
+            Zephyr = Zephyr;
+            Zubenelgenubi = Zubenelgenubi;
+        };
+        masculine =         (
+            Puck,
+            Charon,
+            Fenrir,
+            Orus,
+            Enceladus,
+            Iapetus,
+            Umbriel,
+            Algieba,
+            Algenib,
+            Rasalgethi,
+            Alnilam,
+            Schedar,
+            Achird,
+            Zubenelgenubi,
+            Sadachbia,
+            Sadaltager
+        );
+    };
+    compressionTarget = 4000;
+    compressionTrigger = 30000;
+    contextCompressionEnabled = 1;
+    dailyUsageMinutes = 0;
+    dynamicSystemPromptSupported = 1;
+    ephemeralToken = "auth_tokens/84bd04bdc3ccb22a488d3795e93499672fb0c3610f8cdd1afddb29d218ae747b";
+    expiresAt = "2025-08-28T10:10:14.252695+00:00";
+    isBetaTester = 0;
+    isDeveloper = 1;
+    maxTokenLimit = 128000;
+    maxUses = 50;
+    model = "models/gemini-2.5-flash-preview-native-audio-dialog";
+    remainingMinutes = "-1";
+    selectionMethod = "direct_google_voice";
+    sessionResumptionEnabled = 1;
+    setupFrameRequired = 1;
+    subscriptionTier = developer;
+    success = 1;
+    systemPromptInToken = 1;
+    tokenDurationMinutes = 60;
+    totalFreeMinutesUsed = 0;
+    voice = Iapetus;
+    voiceType = masculine;
+}
+🎯 Selected voice: Iapetus (masculine) via direct_google_voice for agent: money-master
+✅ Successfully got token: auth_tokens/84bd04bd...
+✅ CORRECTED: Got token with embedded system prompt for constrained endpoint
+🔧 Connecting to WebSocket URL with session resumption...
+🔄 Session handle: new session
+🔧 Starting WebSocket task...
+🔧 WebSocket task.resume() called, waiting for connection...
+🔐 Received authentication challenge: NSURLAuthenticationMethodServerTrust
+✅ WebSocket didOpenWithProtocol called!
+✅ Protocol: none
+✅ Task state: NSURLSessionTaskState(rawValue: 0)
+🔧 Connection completion called with result: success()
+✅ WebSocket connected successfully to CONSTRAINED endpoint.
+🆕 Starting new session. System instruction is embedded in the token.
+🔧 Sending setup frame...
+✅ Setup frame sent successfully.
+🎯 Official Implementation: System instruction embedded in ephemeral token (most secure and reliable)
+✅ No text priming - pure audio-only conversation experience
+✅ Live API connection established with context preservation.
+✅ liveClient.start() completed successfully
+🔄 Starting audio streaming...
+🎙️ Elite audio pipeline configured:
+   Input: 48000.0Hz 1 1ch
+   Output: 16000.0Hz 3 1ch
+   Conversion: Single-step direct (optimal performance)
+🎵 Preparing playback engine...
+🎵 Starting playback engine...
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0003)
+✅ Separate audio engines started successfully - ready for real-time audio.
+🔍 ENGINE STATE: Playback engine running: true, Player node playing: true
+✅ Audio streaming started successfully
+🤖 USING SIMULATION AGENT: Jason Walker (ID: B96FD3A9-5A1E-4E83-8518-AD9740AC97A4)
+🤖 USING SIMULATION AGENT: Jason Walker (ID: B96FD3A9-5A1E-4E83-8518-AD9740AC97A4)
+🤖 USING SIMULATION AGENT: Jason Walker (ID: B96FD3A9-5A1E-4E83-8518-AD9740AC97A4)
+🎯 CONVERSATION STARTED: Speaking with Jason Walker (ID: B96FD3A9-5A1E-4E83-8518-AD9740AC97A4)
+✅ startStreaming() completed successfully - isConversationActive: true
+📝 Setting up speech recognition callbacks for transcript
+✅ Speech recognition callbacks configured
+📝 Starting speech recognition for AI transcript
+🤖 USING SIMULATION AGENT: Jason Walker (ID: B96FD3A9-5A1E-4E83-8518-AD9740AC97A4)
+📝 Speech recognizer setup for language: en-US
+📝 Recognizer available: true
+📝 Permission status: 3
+✅ Speech recognition started for language: en-US
+🤖 USING SIMULATION AGENT: Jason Walker (ID: B96FD3A9-5A1E-4E83-8518-AD9740AC97A4)
+🤖 USING SIMULATION AGENT: Jason Walker (ID: B96FD3A9-5A1E-4E83-8518-AD9740AC97A4)
+🤖 USING SIMULATION AGENT: Jason Walker (ID: B96FD3A9-5A1E-4E83-8518-AD9740AC97A4)
+📝 Domain vocabulary set for Jason Walker: 3 terms
+📝 Domain vocabulary set: 3 terms
+✅ Speech recognition started successfully for language: en-US
+ℹ️ AUTO-GREETING disabled: agents will not automatically introduce themselves
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0003)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0003)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0002)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0003)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0050)
+📨 Received binary WebSocket message: 26 bytes
+📋 Parsed binary message: ["setupComplete"]
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0014)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0003)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0003)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0003)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0003)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0002)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0002)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0002)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0017)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0023)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0089)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0098)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0083)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0070)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0093)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0048)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0118)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0123)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0060)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0120)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0087)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0034)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0066)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0080)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0079)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0047)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0060)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0017)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0007)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0020)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0025)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0008)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0003)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0001)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0001)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0001)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0002)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0003)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0004)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0003)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0002)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0005)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0113)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0112)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0083)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0076)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0048)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0042)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0038)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0029)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0020)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0038)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0019)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0049)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0029)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0051)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0039)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0033)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0012)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0021)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0004)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0002)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0002)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0005)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0016)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0025)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0004)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0009)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0004)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0003)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0007)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0001)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0002)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0019)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0008)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0002)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0003)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0002)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0005)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0043)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0005)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0004)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0003)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0004)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0004)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0003)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0005)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0004)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0004)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0004)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0003)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0027)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0025)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0040)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0030)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0078)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0067)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0044)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0017)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0010)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0009)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0008)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0006)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0004)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0004)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0004)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0003)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0008)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0006)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0004)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0003)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0003)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0002)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0003)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0003)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0002)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0003)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0016)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0008)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0005)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0005)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0006)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0004)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0003)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0007)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0006)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0005)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0006)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0006)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0002)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0007)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0005)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0002)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0009)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0012)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0025)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0025)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0010)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0002)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0002)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0002)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0003)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0003)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0002)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0002)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0003)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0044)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0034)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0006)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0003)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0003)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0003)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0003)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0005)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0005)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0004)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0002)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0002)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0001)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0002)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0002)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0005)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0004)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0006)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0003)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0003)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0005)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0012)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0020)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0015)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0018)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0030)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0024)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0008)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0005)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0007)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0008)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0007)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0014)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0012)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0005)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0015)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0136)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0148)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0158)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0171)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0130)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0070)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0017)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0086)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0073)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0105)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0085)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0041)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0059)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0061)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0016)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0017)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0006)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0024)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0029)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0021)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0021)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0016)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0012)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0005)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0001)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0001)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0001)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0001)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0001)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0001)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0001)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0001)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0001)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0001)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0001)
+🚫 VAD: Blocking silent/noise audio chunk - saving tokens! (vol: 0.0001)
+🎤 startConversation called - isActive: true
+🛑 Stopping conversation
+✅ Recording engine stopped and tap removed
+✅ Playback engine stopped
+✅ Player node stopped
+🔍 === AUDIO CLEANUP ANALYSIS ===
+🔍 Buffer size before cleanup: 0 bytes
+🔍 Total buffer operations this session: 0
+🔍 Total bytes buffered this session: 0
+🧹 PHASE 2: Memory management audit during cleanup
+🧹 PHASE 2: Memory audit results:
+🧹   - Buffer size: 0 → 0 bytes
+🧹   - Memory properly deallocated: ✅ YES
+✅ PHASE 2: Buffer memory completely deallocated
+🔍 Resetting buffer analytics for next session
+✅ Audio streaming fully stopped and cleaned up
+🛑 Session monitoring stopped
+⏱️ Display timer stopped
+🎯 Completed conversation session: Cold Sales Call
+🎯 Session duration: 29.260630011558533 seconds
+🤖 USING SIMULATION AGENT: Jason Walker (ID: B96FD3A9-5A1E-4E83-8518-AD9740AC97A4)
+📱 Progress saved locally only (Level 7 - no sync needed)
+🎯 Simulation completed with bonus XP
+🎉 Preparing CongratulationsView - XP to show: 50
+📝 Stopping speech recognition for transcript
+📊 Speech Recognition Performance Metrics:
+   Audio chunks processed: 0
+   Average latency: 0.0ms
+   Total processing time: 0.0s
+   Recognition errors: 0
+   Session duration: 22.2s
+   Processing efficiency: 0.0%
+✅ Speech recognition stopped
+✅ Speech recognition stopped
+🤖 USING SIMULATION AGENT: Jason Walker (ID: B96FD3A9-5A1E-4E83-8518-AD9740AC97A4)
+🤖 USING SIMULATION AGENT: Jason Walker (ID: B96FD3A9-5A1E-4E83-8518-AD9740AC97A4)
+Unable to open mach-O at path: /Library/Caches/com.apple.xbs/Binaries/RenderBox/install/Root/System/Library/PrivateFrameworks/RenderBox.framework/default.metallib  Error:2
+🤖 USING SIMULATION AGENT: Jason Walker (ID: B96FD3A9-5A1E-4E83-8518-AD9740AC97A4)
+🔍 [TOKEN_DEBUG] === SESSION TOKEN SUMMARY ===
+🔍 [TOKEN_DEBUG] Total token calls this session: 1
+🔍 [TOKEN_DEBUG] Session duration: 30.115710020065308 seconds
+🔍 [TOKEN_DEBUG] Average call interval: 0.0 seconds
+🔍 [TOKEN_DEBUG] First call: 1756372207.968087
+🔍 [TOKEN_DEBUG] Last call: 1756372207.968087
+🔍 [TOKEN_DEBUG] Token calls per minute: 1.9923156372545616
+🔍 [RESUMPTION_DEBUG] === SESSION RESUMPTION SUMMARY ===
+🔍 [RESUMPTION_DEBUG] Total session resumptions: 0
+🔍 [RESUMPTION_DEBUG] Current session was resumed: false
+🔍 [RESUMPTION_DEBUG] === END RESUMPTION SUMMARY ===
+🔍 [TOKEN_DEBUG] === END TOKEN SUMMARY ===
+🔍 === PHASE 1 SESSION ANALYSIS SUMMARY ===
+🔍 Total audio chunks sent: 0
+🔍 Total raw audio data: 0 bytes
+🔍 Total raw audio data: 0 bytes
+🔍 Total JSON overhead: 0 bytes
+🔍 JSON overhead percentage: 0%
+🔍 Average message size: 0.0 chars
+🔍 Message size range: 0 - 0 chars
+🔍 === BUFFER TRACKING RESET FOR NEXT SESSION ===
+🧹 PHASE 2: Resetting session state to prevent accumulation
+🔄 PROBLEM 2 FIX: Session reset - audio sending enabled
+✅ PHASE 2: Session state reset complete
+📊 === TOKEN USAGE SUMMARY FOR SESSION: BD273644-05C3-437B-827D-7018C3F660C5 ===
+📊 Audio Input Tokens: 0
+📊 Audio Output Tokens: 0
+📊 Text Input Tokens: 0
+📊 Total Tokens: 0
+📊 Session Duration: 0.0 seconds
+📊 Messages Exchanged: 0
+📊 ============================================
+📊 LOCAL TOKEN USAGE SUMMARY:
+📊 Session ID: BD273644-05C3-437B-827D-7018C3F660C5
+📊 Audio Input Tokens: 0
+📊 Audio Output Tokens: 0
+📊 Text Input Tokens: 0
+📊 Total Tokens: 0
+📊 Session Duration: 0.0s
+📊 Message Count: 0
+📊 Agent Type: money-master
+📊 Voice: Iapetus
+✅ MONITORING: No text input detected - system prompt properly embedded in token
